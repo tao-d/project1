@@ -1,4 +1,5 @@
-# vue_yy
+# 小型诊所预约系统
+
 
 ## Project setup
 ```

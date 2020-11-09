@@ -58,15 +58,12 @@ export default {
     this.getAppointmentsList()
   },
   watch:{
-    // dialogVisible(){
-    //   //console.log(this.dialogVisible)
-    // }
+
   },
   methods:{
     
     getAppointmentsList(){
       this.loading = true
-      //console.log(this.$store.state.User.username);
       requestMysql({
         url:'/api/user/selectAppointments',
         method:'post',
